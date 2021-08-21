@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SimonSays</string>
+    <string name="whats_your_name_txt">Hello, what is your name?</string>
+    <string name="my_name_hint">My name is:</string>
+    <string name="your_name_btn">Send</string>
+    <string name="text_rules">On the screen 4 different buttons will appear (red, green, blue and yellow) &#10;In every level in the game, Shimon will decide to turn on a new light randomly while repeating the order from earlier level. &#10;For example, if Shimon decided in the first level to turn on the red light, in the second level he will turn on the red light and after that he will turn on a different light (for instance blue). &#10;The goal is to remember the order in which Shimon has turned on the lights and repeat it. Good Luck!</string>
+    <string name="text_rules_head_line">The game:</string>
+    <string name="highest_score_default">"<br />"</string>
+    <string name="leader_boards_scores">"On the screen 4 different buttons will appear (red, green, blue and yellow)"</string>
+    <string name="level_txt">Press the start button to begin</string>
+    <string name="new_game_btn">New game</string>
+    <string name="begin_btn">Start</string>
+    <string name="hello_name">User</string>
+    <string name="start_of_game">the game will become harder gradually</string>
+    <string name="level">level</string>
+    <string name="still_an_easy_level_game">still an easy level</string>
+    <string name="nice_starting_to_be_challenging_game">nice, starting to be challenging</string>
+    <string name="great_lets_see_you_now_game">Great, lets see you now!</string>
+    <string name="default_score">Score: 0</string>
+    <string name="current_score">Score</string>
+    <string name="game_over">Game over</string>
+    <string name="bad_luck_try_again">Bad luck, Try again</string>
+    <string name="game_btn">GAME</string>
+    <string name="guide_btn">GUIDE</string>
+    <string name="language_has_changed">Language has changed to english</string>
+    <string name="sound_is_off">sound has turned off</string>
+    <string name="sound_is_on">sound has turned on</string>
+    <string name="music_is_off">music has turned off</string>
+    <string name="music_is_on">music has turned on</string>
+
+
+</resources>

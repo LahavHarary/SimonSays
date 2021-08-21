@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_activity_background_image"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main_activity"
+    >
+
+
+    <ImageView
+        android:id="@+id/simon"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:src="@drawable/simon_image_icon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/says"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:src="@drawable/says_image_icon"
+        app:layout_constraintTop_toBottomOf="@+id/simon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/whats_your_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/whats_your_name_txt"
+            android:textSize="25dp"
+            android:alpha="0"
+            style="@style/AppFont"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/enter_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/my_name_hint"
+            android:inputType="textPersonName"
+            android:layout_marginTop="70dp"
+            android:alpha="0"
+            style="@style/AppFont"
+            android:textSize="30dp"
+           />
+
+        <Button
+            android:id="@+id/enter_name_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+            android:background="@drawable/button_shape_design"
+            android:text="@string/your_name_btn"
+            android:onClick="onClickOnSendName"
+            android:alpha="1"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
